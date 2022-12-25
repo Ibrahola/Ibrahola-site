@@ -293,3 +293,13 @@ body {
     font-weight: 600;
     font-size: 40px;
 }
+
+.row p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.row p a:hover {
+    background: #000;
+    color: #555;
+}
