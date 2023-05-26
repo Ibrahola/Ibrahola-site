@@ -304,6 +304,7 @@ font-family: 'Roboto', sans-serif;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/image-2.jpeg);
     background-size: cover;
     background-position: center;
+    /* background-attachment: fixed; */
 }
 .social .social-icon{
     margin-top: 50px;
@@ -325,4 +326,19 @@ font-family: 'Roboto', sans-serif;
 .row p a:hover {
     background: #000;
     color: #555;
+}
+.skills-bar {
+    margin-top: 70px;
+    text-align: center;
+    transition: all 2s ;
+}
+
+.skills-bar  p:hover{
+    transition: all 2s ;
+    transform: translateX(100px);
+    color: red;
+}
+.skill{
+    text-align: center;
+    
 }
